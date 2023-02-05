@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    display: none;
+    height: 100vh;
+}
+
+.cityhall-main-container{
+    position: relative;
+    background-position: center center;
+    backface-visibility: hidden;
+    width: 100vh;
+    height: 50vh;
+    margin: 0 auto;
+    top: 15vh;
+    background-size: cover;
+    background-color: rgb(16, 16, 16);
+    border-radius: 2vh;
+}
+
+
+.cityhall-header {
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2.4vh;
+    color: #ededed;
+    line-height: 5vh;
+    width: 100vh;
+    height: 5vh;
+    background: #1a7780;
+
+}
+
+.cityhall-option-blocks {
+    position: relative;
+    height: 33vh;
+    width: 65vh;
+    margin: 0 auto;
+    top: 6vh;
+
+    /*background: rgba(37, 37, 37, 0.418)*/
+    
+}
+
+.cityhall-Lisences-page {
+    display: none;
+    position: relative;
+    height: 40vh;
+    width: 80vh;
+    margin: 0 auto;
+    top: 4.5vh;
+    border-radius: 1vh;
+}
+
+.cityhall-job-page {
+    display: none;
+    position: relative;
+    height: 40vh;
+    width: 80vh;
+    margin: 0 auto;
+    top: 4.5vh;
+    border-radius: 1vh;
+}
+
+.cityhall-option-block {
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    display: inline-block;
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+    left: 1vh;
+    top: 1vh;
+    text-align: center;
+    transition: all 0.2s linear;
+    color: whitesmoke;
+    background-color: #131313;
+    border-radius: 1vh;
+}
+
+.cityhall-option-block:hover {
+    background-color: #0d0d0d;
+    transition: 0.4s;
+}
+
+
+.cityhall-option-block > i {
+    font-size: 16vh;
+    line-height: 21vh;
+}
+
+.cityhall-option-block > p {
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1vh;
+    font-size: 2.2vh;
+}
+
+.Lisences-page-blocks {
+    position: relative;
+    height: 100%;
+    width: 25%;
+    padding: 1vh;
+}
+
+.Lisences-page-block {
+    width: 100%;
+    height: 5vh;
+    background: #131313;
+    border-radius: 0.2vh;
+    transition: all 0.1s ease-in-out;
+}
+
+.Lisences-page-block:hover {
+    background: #0d0d0d;
+    transition: ease-in 0.3s;
+}
+
+.Lisences-page-block > p:hover {
+    color: #ededed;
+    transition: ease-in 0.3s;
+}
+
+.Lisences-page-block > p {
+    position: relative;
+    text-align: center;
+    line-height: 2.5vh;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.1vh;
+    color: #ededed;
+    font-size: 1.6vh;
+}
+
+.hover-description {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1vh;
+    margin: 4vh;
+    background: rgba(34, 34, 34, 0.75);
+    border-radius: 1vh;
+}
+
+.hover-description > p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3vh;
+}
+
+.Lisences-selected {
+    border-bottom: 0px solid #fff;
+    border-left: 0.5vh solid #ededed;
+}
+
+.request-Lisences-button {
+    display: none;
+    position: absolute;
+    top: 2vh;
+    right: -10vh;
+    margin: 1vh;
+    width: 20vh;
+    height: 5vh;
+    background: #28A745;
+    border-radius: 0.2vh;
+}
+
+.request-Lisences-button > p {
+    color: #ededed;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1.6vh;
+    font-weight: 400;
+    line-height: 2vh;
+    letter-spacing: 0.05vh;
+}
+
+.job-page-blocks {
+    position: relative;
+    padding: 1vh;
+    padding-right: 2vh;
+    display: grid;
+    grid-template-columns: 23vh 23vh;
+    column-gap: 2vh;
+    row-gap: 2vh;
+}
+
+.job-page-block {
+    width: 100%;
+    height: 5vh;
+    background: #131313;
+    border-radius: 0.2vh;
+    transition: all 0.1s ease-in-out;
+}
+
+.job-page-block:hover {
+    background: #0d0d0d;
+}
+
+.job-page-block > p:hover {
+    color: #ededed;
+}
+
+.job-page-block > p {
+    position: relative;
+    text-align: center;
+    line-height: 2.5vh;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.1vh;
+    color: #ededed;
+    font-size: 1.6vh;
+}
+
+.apply-job-button {
+    display: none;
+    position: absolute;
+    top: 2vh;
+    right: -10vh;
+    margin: 1vh;
+    width: 20vh;
+    height: 5vh;
+    background: #c51ee7;
+    border-radius: 0.2vh;
+}
+
+.apply-job-button:hover {
+    background: #7f1893;
+}
+
+.apply-job-button > p {
+    color: #ededed;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2vh;
+    font-weight: 400;
+    line-height: 1vh;
+    letter-spacing: 0.05vh;
+}
+
+.job-selected {
+    border-left: 0.5vh solid #ededed;
+}
+
+.back-to-main {
+    position: absolute;
+    top: -4vh;
+    right: -10vh;
+    margin: 1vh;
+    width: 20vh;
+    height: 5vh;
+    background: #1a7780;
+    border-radius: 0.2vh;
+    transition: all 0.1s linear;
+}
+
+.back-to-main > p {
+    color: #ededed;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 2vh;
+    font-weight: 400;
+    line-height: 1vh;
+    letter-spacing: 0.05vh;
+}
